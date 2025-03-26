@@ -17,9 +17,9 @@ public class projek4 {
          // menjumlahkan
          for ( int a =0; a< data.length; a++ ) {
             for ( int b =0; b< data[a].length; b++){
-                System.out.print(data[a][b]);
+                System.out.print(data[a][b] + " ");
             }
-            System.out.println("");
+            System.out.print("\n");
          }
          System.out.println("\nArry Baris ke-1 : ");
          for ( int a = 0; a < data[0].length; a++) {
